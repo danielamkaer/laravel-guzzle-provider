@@ -1,0 +1,22 @@
+{
+    "name": "amkr/laravel-guzzle-provider",
+    "description": "Support classes to provide Guzzle in Laravel 5",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "require": {
+        "illuminate/support": "^5.0",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "authors": [
+        {
+            "name": "Daniel Amkær Sørensen",
+            "email": "daniel.amkaer@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Amkr\\Laravel\\Guzzle\\": "src/"
+        }
+    }
+}
