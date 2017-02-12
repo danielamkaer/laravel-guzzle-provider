@@ -16,7 +16,7 @@ class Factory
 
     public function client($name = 'default') {
         if (isset($this->config[$name])) {
-            return new Client($this->config[$name]);
+            return new Client(value($this->config[$name]));
         } else {
             throw new ConfigurationMissingException('Could not find configuration name "'.$name.'"');
         }
